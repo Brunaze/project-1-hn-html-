@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title>Westworld</title>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="nav">
+
+        <a class="logo" href="home.html"><img src="images/logo.jpg" alt="logo"></a>
+
+        <ul>
+            <li class="menu">
+                <div class="dropdown">
+                    <a href="" onclick="event.preventDefault();">
+                        Immersive Experience
+                    </a>
+                    
+                    <div class="dropcontent">
+                        <a href="presentation.html">Presentation</a>
+                        <a href="characters.html">Characters</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="menu">
+                <div class="dropdown">
+                    <a href="" onclick="event.preventDefault();">
+                        Behind the Scenes
+                    </a>
+                    
+                    <div class="dropcontent">
+                        <a href="technology.html">Technology</a>
+                        <a href="gallery.html">Gallery</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="menu">
+                <div class="dropdown">
+                    <a href="" onclick="event.preventDefault();">
+                        Reservation
+                    </a>
+                    
+                    <div class="dropcontent">
+                        <a href="Reservation.html">Booking</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>If you have any questions or requests, submit it right here.</p>
+
+        <form action="https://hnitest.go.yj.fr" method="post">
+            <input class="ftext" type="text" id="firstname" name="firstname" placeholder="First Name" required >
+            <input class="ftext" type="text" id="lastname" name="lastname" placeholder="Last Name" required >
+            <input class="ftext" type="email" id="mail" name="email" placeholder="Email" required >
+            <select name="country" id="country" required>
+                <option value="" disabled selected hidden>Country</option>
+                <option value="France">France</option>
+                <option value="Spain">Spain</option>
+                <option value="USA">USA</option>
+                <option value="Germany">Germany</option>
+            </select>
+            <textarea name="request" id="request" placeholder="Write your question here..."></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+    <div class="footersize"></div>
+
+    <footer>
+        <p>&copy; Copyright 2024</p>
+    </footer>
+
+</body>
+</html>
